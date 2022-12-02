@@ -1,0 +1,21 @@
+.overlay {
+    background: #000;
+    height: 100vh;
+    left: 0;
+    opacity: 0.5;
+    position: fixed;
+    top: 0;
+    width: 100vw;
+    z-index: 10;
+}
+
+.abrir {
+    border-radius: 10px;
+    height: 30px;
+    width: 100px;
+    background: rgb(238,174,202);
+    background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 100%);
+    font-weight: bold;
+    margin-left: 45%;
+    margin-top: 4px;
+}

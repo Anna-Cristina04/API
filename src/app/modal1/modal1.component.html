@@ -1,0 +1,20 @@
+<div class="modal1">
+  <select [(ngModel)]="selectedTag">
+    <option *ngFor="let tag of tags" [value]="tag">{{ tag }}</option>
+  </select>
+  
+  <input type="number" [(ngModel)]="statusCode" />
+  
+  <button class= "consultar" (click)="consultar()">Consultar</button>
+  
+  
+  <br />
+  <br />
+  <br />
+  <br />
+  <br />
+  <br />
+  
+  
+  <img *ngIf="linkImage" [src]="linkImage" />
+</div>
